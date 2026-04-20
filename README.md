@@ -21,11 +21,13 @@
 ### Шаги установки
 
 1. Клонируйте репозиторий:
-```bash
+
 git clone <repository-url>
 cd <project-directory>
+
 2. Установите зависимости:
 pip install -r requirements.txt
+
 3. Создайте файл config.py в корне проекта messages_config.json
 Пример: 
         {
@@ -69,6 +71,7 @@ pip install -r requirements.txt
                 },    
             ]
         }
+
 ##  Команды Бота
 /start	Показать информацию о боте и расписании
 /status	Показать статус всех сообщений и активных событий
@@ -76,7 +79,7 @@ pip install -r requirements.txt
 /events [YYYY-MM-DD]	Показать события на указанную дату
 /reload	Перезагрузить конфигурацию без перезапуска бота
 
-Структура проекта
+##  Структура проекта
 project/
 ├── bot.py                 # Основной файл бота
 ├── cicle.py              # Класс для управления циклическими событиями
